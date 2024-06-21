@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0px;
+        background-color: #fff;
+        overflow: hidden;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@v0.163.0/build/three.module.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div style="font-family: papyrus;position: absolute; bottom: 2px; left: 10px; color:antiquewhite; z-index: 1000;border-radius: 10px; padding: 10px; z-index: 1000;background-color: rgba(0, 0, 0, 0.7);">
+        <p><section id="keyDescription1">"1" = frontal camera;</section>
+          <section id="keyDescription2">"2" = lateral camera;</section>
+          <section id="keyDescription3">"3" = above camera;</section>
+          <section id="keyDescription4">"4" = fixed ortogonal camera;</section>
+          <section id="keyDescription5">"5" = fixed perspective camera;</section>
+          <section id="keyDescription6">"6" = mobile hook camera;</section>
+          <section id="keyDescription7">"7" = toggle between wireframe and solid;</section>
+          <section id="keyDescriptionQ">"Q/q" = rotate crane anti-clockwise;</section>
+          <section id="keyDescriptionA">"A/a" = rotate crane clockwise;</section>
+          <section id="keyDescriptionW">"W/w" = move trolley to back;</section>
+          <section id="keyDescriptionS">"S/s" = move trolley to front;</section>
+          <section id="keyDescriptionE">"E/e" = move hook up;</section>
+          <section id="keyDescriptionD">"D/d" = move hook down;</section>
+          <section id="keyDescriptionR">"R/r" = open claw;</section>
+          <section id="keyDescriptionF">"F/f" = close claw;</section>
+    </div>
+    <script type="module" src="js/tower.crane.js"></script>
+  </body>
+</html>

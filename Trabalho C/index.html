@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0px;
+        background-color: #fff;
+        overflow: hidden;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@v0.163.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.163.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div
+      style="
+        font-family: papyrus;
+        position: absolute;
+        bottom: 2px;
+        left: 10px;
+        color: antiquewhite;
+        z-index: 1000;
+        border-radius: 10px;
+        padding: 10px;
+        z-index: 1000;
+        background-color: rgba(0, 0, 0, 0.7);
+      "
+    >
+      <p></p>
+      <section id="keyDescription1">"1" = move inner ring;</section>
+      <section id="keyDescription2">"2" = move middle ring;</section>
+      <section id="keyDescription3">"3" = move outter ring;</section>
+      <section id="keyDescriptionD">
+        "D/d" = turn directional illumination on/off;
+      </section>
+      <section id="keyDescriptionP">
+        "P/p" = turn point illumination on/off;
+      </section>
+      <section id="keyDescriptionS">
+        "S/s" = turn spotlight illumination on/off;
+      </section>
+      <section id="keyDescriptionQ">
+        "Q/q" = switch to Gouraud shadowing;
+      </section>
+      <section id="keyDescriptionW">"W/w" = switch to Phong shadowing;</section>
+      <section id="keyDescriptionE">
+        "E/e" = switch to Cartoon shadowing;
+      </section>
+      <section id="keyDescriptionR">
+        "R/r" = switch to NormalMap shadowing;
+      </section>
+      <section id="keyDescriptionT">
+        "T/t" = Toogle illumination calculation
+      </section>
+    </div>
+    <script type="module" src="js/carousel.js"></script>
+  </body>
+</html>
